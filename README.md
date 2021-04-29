@@ -8,4 +8,4 @@
 
 * [ACE.jl Stable](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x)
 * [ACE.jl Development](https://github.com/ACEsuit/ACE.jl)
-* [ACEsuit documentation](https://acesuit.github.io/ACE.jl/dev/) (WIP)
+* [ACEsuit documentation](https://acesuit.github.io/ACEdocs/dev/) (WIP)
