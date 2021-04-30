@@ -7,5 +7,4 @@
 ### Links 
 
 * [ACE.jl Stable](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x) (includes a basic documentation in README + examples)
-* [ACE.jl Development](https://github.com/ACEsuit/ACE.jl) (under heavy development)
-* [ACEsuit developer documentation](https://acesuit.github.io/ACEdocs/dev/) (WIP)
+* [ACE.jl Development](https://github.com/ACEsuit/ACE.jl) (under heavy development) [[docs]](https://acesuit.github.io/ACE.jl/dev/) 
