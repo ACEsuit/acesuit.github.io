@@ -40,6 +40,12 @@ add IPFitting
 ```
 This has `ASE.jl` as a dependency. (Keep fingers crossed and hope it will be compatible with the current version of `ACE.jl`...)
 
+### Tutorials
+
+A simple tutorial on fitting an ACE using IPFitting on DFT Al data can be found [here](https://github.com/ACEsuit/acesuit.github.io/tree/main/tutorials/ACE_Fitting.ipynb)
+
+To use the ACE as a python ASE calculator please have a look [here](https://github.com/ACEsuit/acesuit.github.io/tree/main/tutorials/PyJuLIP_interface.ipynb) (requires pyjulia and [pyjulip](https://github.com/casv2/pyjulip) packages)
+
 ### Trouble-shooting
 
 * On some systems `ASE.jl` is unable to automatically install python dependencies. We found that installing [Anaconda](https://anaconda.org) and then pointing `PyCall.jl` to the Anaconda installation (cf [PyCall Readme](https://github.com/JuliaPy/PyCall.jl)) resolves this. After installing Anaconda, it should then be sufficient to build `ASE.jl` again.
