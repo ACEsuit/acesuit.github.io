@@ -42,8 +42,9 @@ This has `ASE.jl` as a dependency. (Keep fingers crossed and hope it will be com
 
 ### Tutorials
 
-A simple tutorial on fitting an ACE using IPFitting on DFT Al data can be found here
-To use the ACE as a python ASE calculator please have a look here (requires pyjulia and pyjulip packages)
+A simple tutorial on fitting an ACE using IPFitting on DFT Al data can be found [here](https://github.com/ACEsuit/acesuit.github.io/tree/main/tutorials/ACE_Fitting.ipynb)
+
+To use the ACE as a python ASE calculator please have a look [here](https://github.com/ACEsuit/acesuit.github.io/tree/main/tutorials/PyJuLIP_interface.ipynb) (requires pyjulia and [pyjulip](https://github.com/casv2/pyjulip) packages)
 
 ### Trouble-shooting
 
