@@ -4,6 +4,8 @@
 
 `ACE.jl` is currently being [rewritten](https://github.com/ACEsuit/ACE.jl) to account for a variety of generalisations. In the meantime `v0.8.x` provides a relatively [stable version](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x) which is limited to modelling interatomic potential interactions (or more generally *invariant* properties).
 
+Please [join the ACE.jl discussions](https://github.com/ACEsuit/ACE.jl/discussions) if you have any informal questions. 
+
 ### Links
 
 * [ACE.jl Stable](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x) (includes a basic documentation in README + examples)
