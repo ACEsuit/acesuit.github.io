@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="537.42"
+   height="635.16"
+   viewBox="68.547241 122.68109 537.42297 635.16461"
+   id="svg4"
+   sodipodi:docname="Spades_border.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   inkscape:export-filename="https://github.com/ACEsuit/acesuit.github.io/_assets/Spades_border.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1319983"
+     inkscape:cx="105.12383"
+     inkscape:cy="338.78143"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="403"
+     inkscape:window-y="103"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 256.62057,395.32973 c -95.6096,97.6803 -2.6202,168.82331 72.97384,122.18604 0.41188,24.05831 -18.45126,46.51881 -30.05404,67.99535 h 81.6189 c -11.94936,-20.87344 -31.9025,-43.86655 -32.63189,-67.99535 77.17888,44.33649 159.25794,-32.97946 73.62002,-122.18604 -44.65469,-48.9919 -72.56754,-87.1114 -83.08748,-100.06919 -9.59572,12.63421 -35.15786,49.78494 -82.44131,100.06919 z"
+     fill-rule="evenodd"
+     stroke="#000000"
+     stroke-width="1.3691pt"
+     id="path2"
+     style="fill:#808080;fill-opacity:1;stroke:none" />
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:8.85191;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect39"
+     width="358.92517"
+     height="465.27335"
+     x="156.3127"
+     y="204.09311"
+     ry="42.403206" />
+</svg>
