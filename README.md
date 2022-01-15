@@ -1,46 +1,32 @@
 
 
-`ACEsuit` is a collection of Julia modules built around `ACE.jl` which provides a general and flexible implementation of the *Atomic Cluster Expansion* (ACE). ACE is an efficient approximation scheme for general permutation and isometry equi-variant functions. The focus of `ACEsuit` is on applications to modelling particle interactions. It provides constructions of symmetric polynomial bases.
+`ACEsuit` is a collection of Julia packages built around `ACE.jl` which provides a general and flexible implementation of the *Atomic Cluster Expansion* (ACE). ACE is an efficient parameterisation scheme for general permutation and isometry equi-variant functions. The focus of `ACEsuit` is on applications to modelling particle interactions. 
 
-`ACE.jl` is currently being [rewritten](https://github.com/ACEsuit/ACE.jl) to account for a variety of generalisations. In the meantime `v0.8.x` provides a relatively [stable version](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x) which is limited to modelling interatomic potential interactions (or more generally *invariant* properties).
+### Stable Version: ACE1.jl
 
-Please [join the ACE.jl discussions](https://github.com/ACEsuit/ACE.jl/discussions) if you have any informal questions. 
+* [github repo ACE1.jl](https://github.com/ACEsuit/ACE1.jl)
+* [documentation](https://acesuit.github.io/ACE1docs.jl/dev/)
+* [documentation repo](https://github.com/ACEsuit/ACE1docs.jl)
+* [Discussion group](https://github.com/ACEsuit/ACE1docs.jl/discussions)
+ 
+This is a stable package that was split off from the development version and will be maintained separately, maintaining strict semver backward compatibility and user-oriented documentation. `ACE1.jl` is limited to modelling interatomic potential interactions, or more generally *invariant* properties. Bugfixes and urgent features will continue to be included, but significant new development will more likely happen in the development version. 
 
-### Links
+See the [documentation](https://acesuit.github.io/ACE1docs.jl/dev/) for installation instructions and usage.
 
-* [ACE.jl Stable](https://github.com/ACEsuit/ACE.jl/tree/dev-v0.8.x) (includes a basic documentation in README + examples)
-* [ACE.jl Development](https://github.com/ACEsuit/ACE.jl) (under heavy development) [[docs]](https://acesuit.github.io/ACE.jl/dev/)
+### Development Version: ACE.jl
 
-### Installation (v0.8.x) --- Short Version
+* [ACE.jl github repo](https://github.com/ACEsuit/ACE.jl)
+* [Developer docs](https://acesuit.github.io/ACE.jl/dev/)
+* [Discussions](https://github.com/ACEsuit/ACE.jl/discussions)
 
-```julia
-using Pkg; pkg"registry add https://github.com/JuliaMolSim/MolSim.git"; pkg"add JuLIP ACE PyCall ASE IPFitting"
-```
+`ACE.jl` is currently being [rewritten](https://github.com/ACEsuit/ACE.jl) to account for a variety of generalisations and new features, in particular equivariant properties and automatic differentiation. `ACE.jl` is entirely application agnostic and several wrapper packages are now being developed to enable different applications, mostly still experimental, including 
 
-### Installation (v0.8.x)
+* [`ACEatoms.jl`](https://github.com/ACEsuit/ACEatoms.jl) - interatomic potentials 
+* [`ACEflux.jl`](https://github.com/ACEsuit/ACEflux.jl) - nonlinear models
+* [`ACEds.jl`](https://github.com/ACEsuit/ACEds.jl) - coarse-grained dynamical systems 
+* `ACEhamiltonians.jl` - to be published soon
 
-If you have any difficulties with this setup process, please file an issue.
-
-1. Install [Julia](https://julialang.org). We recommend v1.6 or upwards, but v1.3 upwards should in principle work as well.
-2. Install the [`MolSim` registry](https://github.com/JuliaMolSim/MolSim); from the Julia REPL, switch to package manager `]` and then run
-```julia
-registry add https://github.com/JuliaMolSim/MolSim.git
-```
-3. Install some important registered packages; from Julia REPL / package manager:
-```julia
-add JuLIP ACE         # maybe add other packages from MolSim registry
-```
-This will install the *stable* `v0.8.x` version of ACE, as the (equivariant) development version has not been registered yet.
-4. To use [ase](https://wiki.fysik.dtu.dk/ase/) from Julia, you can use [PyCall](https://github.com/JuliaPy/PyCall.jl) or the [ASE.jl](https://github.com/JuliaMolSim/ASE.jl) interface. To install these, run
-```julia
-add PyCall ASE
-```
-from the package manager.
-5. For fitting, you may wish to use [`IPFitting.jl`](https://github.com/cortner/IPFitting.jl),
-```julia
-add IPFitting
-```
-This has `ASE.jl` as a dependency. (Keep fingers crossed and hope it will be compatible with the current version of `ACE.jl`...)
+Please [join the ACE.jl discussions](https://github.com/ACEsuit/ACE.jl/discussions) if you have any informal questions about this package. 
 
 ### Tutorials
 
@@ -48,7 +34,4 @@ A simple tutorial on fitting an ACE using IPFitting on DFT Al data can be found 
 
 To use the ACE as a python ASE calculator please have a look [here](https://github.com/ACEsuit/acesuit.github.io/tree/main/tutorials/PyJuLIP_interface.ipynb) (requires pyjulia and [pyjulip](https://github.com/casv2/pyjulip) packages); or use the [nbviewer](https://nbviewer.jupyter.org/github/ACEsuit/acesuit.github.io/blob/main/tutorials/PyJuLIP_interface.ipynb)
 
-### Trouble-shooting
-
-* On some systems `ASE.jl` is unable to automatically install python dependencies. We found that installing [Anaconda](https://anaconda.org) and then pointing `PyCall.jl` to the Anaconda installation (cf [PyCall Readme](https://github.com/JuliaPy/PyCall.jl)) resolves this. After installing Anaconda, it should then be sufficient to build `ASE.jl` again.
-* If you cannot use Anaconda python, or if the last point failed, then you can try to install the python dependencies manually before trying to build `ASE.jl` again. Specifically, it should be sufficient to just install the [ase](https://wiki.fysik.dtu.dk/ase/) package. Please follow the installation instructions on their website.
+These tutorials will move over to the ACE1docs repository.
