@@ -8,13 +8,13 @@
 ### Stable Version: ACE1.jl
 
 * [github repo ACE1.jl](https://github.com/ACEsuit/ACE1.jl) : core `ACE1.jl` code
-* [github repo ACE1pack.jl](https://github.com/ACEsuit/ACE1pack.jl) : user-oriented interface codes, documentation source
-* [documentation](https://acesuit.github.io/ACE1pack.jl/dev/) : documentation pages
+* [github repo ACEpotentials.jl](https://github.com/ACEsuit/ACEpotentials.jl) : user-oriented interface codes, documentation source
+* [documentation](https://acesuit.github.io/ACEpotentials.jl/dev/) : documentation pages
 * [Discussion group](https://github.com/ACEsuit/ACE1pack.jl/discussions) : discussion group
  
 This is a stable package that was split off from the development version `ACE.jl` and will be maintained separately, maintaining strict semver backward compatibility and user-oriented documentation. `ACE1.jl` is limited to modelling interatomic potential interactions, or more generally *invariant* properties. Bugfixes and urgent features will continue to be included, but significant new development will more likely happen in the development version. 
 
-See the [documentation](https://acesuit.github.io/ACE1pack.jl/dev/) for installation instructions and usage.
+See the [documentation](https://acesuit.github.io/ACEpotentials.jl/dev/) for installation instructions and usage.
 
 ### Development Version: ACE.jl
 
